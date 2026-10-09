@@ -89,6 +89,7 @@ for w in Regular Bold; do
   curl -fL -o "src/Vazirmatn-UI-NL-$w.ttf" "https://raw.githubusercontent.com/rastikerdar/vazirmatn/v33.003/misc/UI-Non-Latin/fonts/ttf/Vazirmatn-UI-NL-$w.ttf"
   python3 arabic_alias_font.py "src/Vazirmatn-UI-NL-$w.ttf" "build/SegoeUI-VazirmatnAlias-$w.ttf" "Segoe UI" "$w" "Vazirmatn UI NL Alias $w" "VazirmatnUINLAlias-$w"
 done
+mkdir -p ~/Library/Fonts
 cp build/*.ttf ~/Library/Fonts/
 ```
 
