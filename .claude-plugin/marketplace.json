@@ -5,6 +5,7 @@
   "plugins": [
     {
       "name": "rtl-messages",
+      "displayName": "RTL messages",
       "source": "./mod",
       "description": "Shows right-to-left text correctly in the transcript's user and assistant messages",
       "homepage": "https://github.com/justmisam/rtl-mod",
