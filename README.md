@@ -4,14 +4,6 @@ A [Claude Code mod](https://code.claude.com/docs/en/plugins/mods/overview) that 
 
 ![A Claude Code reply where Persian blocks are right-to-left and the English paragraph stays left-to-right](docs/screenshot.png)
 
-<div dir="rtl">
-
-اگر با Claude Code فارسی کار می‌کنی، این مود پیام‌ها را درست نشان می‌دهد: هر پاراگراف، فهرست و جدول جهت خودش را می‌گیرد، و کد و لینک وسط جملهٔ فارسی به‌هم نمی‌ریزد. نصبش یک خط است.
-
-فونت وزیر جدا از مود نصب می‌شود و راهنمایش پایین‌تر آمده است.
-
-</div>
-
 ## Install
 
 In a terminal session of Claude Code:
