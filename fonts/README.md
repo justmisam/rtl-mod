@@ -15,11 +15,15 @@ macOS. A font that answers to that family name and maps only Arabic-script
 characters takes Persian over, and leaves Latin, digits and punctuation where
 they were.
 
-## The script
+## The scripts
 
-`arabic_alias_font.py` makes such a font out of any static TrueType font. It has
-no dependencies and rewrites two tables only: `cmap` (the Arabic blocks plus
-ZWNJ and ZWJ are kept) and `name`.
+`install.sh` does the whole install: it downloads the two Vazirmatn UI-NL files,
+runs the maker on them in a temporary folder and copies the result to
+`~/Library/Fonts`.
+
+`arabic_alias_font.py` is the maker. It makes such a font out of any static
+TrueType font, has no dependencies and rewrites two tables only: `cmap` (the
+Arabic blocks plus ZWNJ and ZWJ are kept) and `name`.
 
 ```bash
 python3 arabic_alias_font.py <in.ttf> <out.ttf> <family> <style> <full name> <postscript name>

@@ -6,7 +6,7 @@
 # Local work that is not part of the mod
 extras/
 
-# Font files: downloaded and built on your own machine, see the README
+# Font files kept beside the scripts are local only
 fonts/src/
 fonts/build/
 

@@ -80,18 +80,13 @@ This part is separate from the mod. It makes the desktop app draw Persian and Ar
 
 The app's font stack lists "Segoe UI" before Arial, and macOS has no font by that name. A copy of Vazirmatn that holds only Arabic-script characters, installed under that family name, takes Persian over and leaves Latin text alone.
 
-From a clone of this repository:
+In a terminal:
 
 ```bash
-cd fonts
-mkdir -p src build
-for w in Regular Bold; do
-  curl -fL -o "src/Vazirmatn-UI-NL-$w.ttf" "https://raw.githubusercontent.com/rastikerdar/vazirmatn/v33.003/misc/UI-Non-Latin/fonts/ttf/Vazirmatn-UI-NL-$w.ttf"
-  python3 arabic_alias_font.py "src/Vazirmatn-UI-NL-$w.ttf" "build/SegoeUI-VazirmatnAlias-$w.ttf" "Segoe UI" "$w" "Vazirmatn UI NL Alias $w" "VazirmatnUINLAlias-$w"
-done
-mkdir -p ~/Library/Fonts
-cp build/*.ttf ~/Library/Fonts/
+curl -fsSL https://raw.githubusercontent.com/justmisam/rtl-mod/main/fonts/install.sh | bash
 ```
+
+[The script](fonts/install.sh) is short: it downloads Vazirmatn, builds the copy in a temporary folder and puts two files in `~/Library/Fonts`. From a clone, `./fonts/install.sh` does the same.
 
 Then quit the app and open it again. If Persian is still drawn in the old font, log out of your macOS account and log back in. On a new account that is what it took.
 
