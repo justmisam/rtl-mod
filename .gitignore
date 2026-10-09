@@ -1,0 +1,15 @@
+.DS_Store
+
+# Local Claude Code settings (machine paths)
+.claude/
+
+# Local work that is not part of the mod
+extras/
+
+# Font files: downloaded and built on your own machine, see the README
+fonts/src/
+fonts/build/
+
+# Written by the engine when it loads the mod
+mod/tsconfig.json
+mod/.claude-plugin/types/

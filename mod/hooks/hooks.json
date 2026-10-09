@@ -1,0 +1,4 @@
+{
+  "description": "Rewrites the text of user and assistant messages so each block reads in its own direction",
+  "modules": ["./register.ts"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "rtl-messages",
+  "version": "0.1.0",
+  "description": "Shows right-to-left text correctly in the transcript's user and assistant messages",
+  "author": { "name": "Misam" }
+}

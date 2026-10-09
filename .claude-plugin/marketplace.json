@@ -1,0 +1,16 @@
+{
+  "name": "rtl-mod",
+  "description": "Right-to-left text that reads correctly in Claude Code",
+  "owner": { "name": "Misam", "url": "https://github.com/justmisam" },
+  "plugins": [
+    {
+      "name": "rtl-messages",
+      "source": "./mod",
+      "description": "Shows right-to-left text correctly in the transcript's user and assistant messages",
+      "homepage": "https://github.com/justmisam/rtl-mod",
+      "repository": "https://github.com/justmisam/rtl-mod",
+      "license": "MIT",
+      "keywords": ["rtl", "bidi", "persian", "arabic", "hebrew", "mod"]
+    }
+  ]
+}
