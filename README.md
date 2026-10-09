@@ -6,13 +6,23 @@ A [Claude Code mod](https://code.claude.com/docs/en/plugins/mods/overview) that 
 
 ## Install
 
-In a terminal session of Claude Code:
+In the desktop app:
 
-```
-/plugin install rtl-messages --marketplace justmisam/rtl-mod
+1. Type `/plugin` in the Code tab. It opens the Plugins page.
+2. Press **Add** and enter this repository: `https://github.com/justmisam/rtl-mod`
+3. Install **RTL messages** from it.
+
+From a terminal:
+
+```bash
+claude plugin marketplace add justmisam/rtl-mod
 ```
 
-Answer `y` to add the marketplace, then pick the user scope. Every session started after that loads it, the desktop app's Code tab included.
+```bash
+claude plugin install rtl-messages@rtl-mod
+```
+
+Either way, every session started after that loads it.
 
 To run it from a clone instead:
 
