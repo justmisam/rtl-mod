@@ -93,7 +93,7 @@ mkdir -p ~/Library/Fonts
 cp build/*.ttf ~/Library/Fonts/
 ```
 
-Then restart the app.
+Then quit the app and open it again. If Persian is still drawn in the old font, log out of your macOS account and log back in. On a new account that is what it took.
 
 Before you do it:
 
